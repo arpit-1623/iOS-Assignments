@@ -18,7 +18,7 @@ var statesAndCapitals: [String: String] = [
     "Haryana": "Chandigarh"
 ]
 
-statesAndCapitals["Jammu & Kashmir"] = "jammu"
+statesAndCapitals["Jammu & Kashmir"] = "Jammu"
 
 for (state, capital) in statesAndCapitals {
     if (state == "Punjab") {
