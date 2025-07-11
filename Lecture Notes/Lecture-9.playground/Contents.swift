@@ -275,3 +275,98 @@ case .invalidUsername:
 case .invalidEmail:
     print("Invalid Email!")
 }
+
+//: ## Type Casting and Inspection
+
+class Animal {
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+}
+
+class Dog: Animal {
+    func bark() {
+        print("Woof. Woof.")
+    }
+}
+
+class Cat: Animal {
+    func meow() {
+        print("Meow. Meow.")
+    }
+}
+
+class Bird: Animal {
+    func chirp() {
+        print("Tweek. Tweek.")
+    }
+}
+
+let dog = Dog(name: "Tommy")
+let cat = Cat(name: "Kitty")
+let bird = Bird(name: "Sparrow")
+
+func getClientPet(pets: [Animal]) -> Animal {
+    // returns the pet
+    return pets[2]
+}
+
+var allPets: [Animal] = [dog, cat, bird]
+print(allPets)
+// [__lldb_expr_1756.Dog, __lldb_expr_1756.Cat, __lldb_expr_1756.Bird]
+
+let pet = getClientPet(pets: allPets) // pet is of the `Animal`
+print(pet)
+
+// `is` operator to check the type
+// `is` = Type Inspection Keyword
+
+if pet is Dog {
+    print("The Pet is a Dog")
+} else if pet is Cat {
+    print("The Pet is a Cat")
+} else if pet is Bird {
+    print("The Pet is a Bird")
+} else {
+    print("The Pet is an Exotic Animal")
+}
+
+// This allows us to inspect and check of what type the instance is, but this doesnt convert the type of that instance
+
+// To change the type of an instance `as`
+
+// as? => Safely cast pet to bird if possible
+// as! => Forcefully cast, only use if you are sure of the type conversion
+
+// as? => Gives a optional datatype
+// as! => Forcefully give direct datatype
+
+let convertedDog = allPets[0] as! Dog //  dt => Dog
+let convertedCat = allPets[1] as? Cat // dt => Cat?
+let convertedBird = allPets[2] as? Bird
+
+
+//: ## Any Generic
+
+let anyTypeVariable: Any
+let anyTypeArray: [Any] = [1, 1.2, "String", dog, cat, bird, true]
+
+for item in anyTypeArray {
+    if item is Int {
+        print("Integer")
+    } else if item is Double {
+        print("Double")
+    } else if item is String {
+        print("String")
+    } else if item is Dog {
+        print("Dog")
+    } else if item is Cat {
+        print("Cat")
+    } else if item is Bool {
+        print("Boolean")
+    } else {
+        print("Other Datatypes")
+    }
+}
