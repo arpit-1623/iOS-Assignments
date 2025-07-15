@@ -9,20 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // Properties above viewDidLoad() [Outlets]
     @IBOutlet weak var weightTextField: UITextField!
     
     @IBOutlet weak var heightTextField: UITextField!
         
     @IBOutlet weak var calculateBMI: UILabel!
     
+    // Profile Page Outlets
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() // Super Class viewDidLoad() Function
         // Error without () in the 13 line, Function is unused is compile time error.
+        
+        
     }
     
-    @IBAction func calculateButtonPressed(_ sender: Any) {
+    // Methods below viewDidLoad() [Actions]
+    @IBAction func calculateButtonPressed(_ sender: UIButton) {
         // bmi = weight / (height * height)
+        print("Calculate BMI Button Pressed")
         
         let weightString = weightTextField.text ?? ""
         let weight = Double(weightString) ?? 0
@@ -38,4 +44,5 @@ class ViewController: UIViewController {
 //        calculateBMI.text = "Result BMI: \(formattedBMI)"
     }
 }
+
 
