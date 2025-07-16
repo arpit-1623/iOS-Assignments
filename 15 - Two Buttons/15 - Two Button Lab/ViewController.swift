@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func clearTextButtonClicked(_ sender: Any) {
+        textField.text = ""
         textLabel.text = ""
     }
 }
