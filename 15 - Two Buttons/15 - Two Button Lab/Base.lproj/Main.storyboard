@@ -37,7 +37,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Set Text"/>
                                 <connections>
-                                    <action selector="clearTextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vmk-qz-wu5"/>
                                     <action selector="setTextButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKe-rz-cWz"/>
                                 </connections>
                             </button>
