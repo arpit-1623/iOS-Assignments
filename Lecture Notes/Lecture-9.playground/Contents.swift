@@ -185,7 +185,7 @@ let some: Int? = nil
 
 //if let some = some { // Both are valid
 if let some {
-    print("Some Value")
+    print("Some Value", some)
 } else {
     print("Nil Value")
 }
