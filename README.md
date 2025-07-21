@@ -23,6 +23,7 @@
     - Auto Layout
     - Segue and Navigation
     - Expense Manager Example
+    - Tab Bar Navigation
 
 - **Lecture Notes**  
     Class Notes for Swift Fundamental Topics
