@@ -8,6 +8,7 @@
     - Segue Login Page [Book]
     - Guided Project: Apple Pie [Book]
     - Auto Layout App: Music Player [Assignment]
+    - View Controller Lifecycle App [Book]
 
 - **FA-I Problems**  
     PDFs of FA-1 practice problems and their solutions
@@ -24,6 +25,7 @@
     - Segue and Navigation
     - Expense Manager Example
     - Tab Bar Navigation
+    - View Controller Lifecycle
 
 - **Lecture Notes**  
     Class Notes for Swift Fundamental Topics
