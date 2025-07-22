@@ -9,12 +9,7 @@
     - Guided Project: Apple Pie [Book]
     - Auto Layout App: Music Player [Assignment]
     - View Controller Lifecycle App [Book]
-
-- **FA-I Problems**  
-    PDFs of FA-1 practice problems and their solutions
-
-- **Fundamentals Playgrounds**  
-    Playgrounds for Swift Fundamentals
+    - Guided Project: Light [Book]
 
 - **Lecture Apps**  
     Xcode Applications created in the Class Lectures
@@ -26,6 +21,12 @@
     - Expense Manager Example
     - Tab Bar Navigation
     - View Controller Lifecycle
+
+- **FA-I Problems**  
+    PDFs of FA-1 practice problems and their solutions
+
+- **Fundamentals Playgrounds**  
+    Playgrounds for Swift Fundamentals
 
 - **Lecture Notes**  
     Class Notes for Swift Fundamental Topics
