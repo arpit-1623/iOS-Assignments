@@ -10,6 +10,7 @@
     - Auto Layout App: Music Player [Assignment]
     - View Controller Lifecycle App [Book]
     - Guided Project: Light [Book]
+    - Guided Project: Personality Quiz [Book]
 
 - **Lecture Apps**  
     Xcode Applications created in the Class Lectures
