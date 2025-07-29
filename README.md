@@ -11,6 +11,7 @@
     - View Controller Lifecycle App [Book]
     - Guided Project: Light [Book]
     - Guided Project: Personality Quiz [Book]
+    - Tab View About Me [Book]
 
 - **Lecture Apps**  
     Xcode Applications created in the Class Lectures
