@@ -24,12 +24,17 @@
     - Tab Bar Navigation
     - View Controller Lifecycle
     - Segue Login Practice
-
-- **FA-I Problems**  
-    PDFs of FA-1 practice problems and their solutions
+    - Event Planner Example
+    - Mood-Meal Example (ST-1 Question)
 
 - **Fundamentals Playgrounds**  
     Playgrounds for Swift Fundamentals
 
-- **Lecture Notes**  
+- **Fundamental Notes**  
     Class Notes for Swift Fundamental Topics
+
+- **Data Collection Playgrounds**  
+    Playgrounds for Swift Data Collections
+
+- **Data Collection Notes**  
+    Class Notes for Swift Data Collections Topics
