@@ -27,7 +27,7 @@
     - Event Planner Example
     - Mood-Meal Example (ST-1 Question)
 
-- **Fundamentals Playgrounds**  
+- **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals
 
 - **Fundamental Notes**  
