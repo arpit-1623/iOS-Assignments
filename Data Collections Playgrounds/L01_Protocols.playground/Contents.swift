@@ -3,6 +3,9 @@
 
  - CustomStringConvertible, Equatable, Comparable, Codable
  - When adopt, need to implement all methods
+ 
+ - Adopting a Protocol: ex - "class <N> : <Protocol>"
+ - Confirming a Protcol: Implementing the properites, methods of the protocol
  */
 
 //class Shoe {
