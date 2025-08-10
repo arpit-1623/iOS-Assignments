@@ -26,6 +26,7 @@
     - Segue Login Practice
     - Event Planner Example
     - Mood-Meal Example (ST-1 Question)
+    - Data Passing Example
 
 - **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals
@@ -38,3 +39,6 @@
 
 - **Data Collection Notes**  
     Class Notes for Swift Data Collections Topics
+
+- **Examinations**  
+    Records of Practice and Solutions from Exams (FAs, STs)
