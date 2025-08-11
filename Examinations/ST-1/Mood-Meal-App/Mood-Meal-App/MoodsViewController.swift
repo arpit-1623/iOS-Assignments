@@ -52,8 +52,7 @@ class MoodsViewController: UIViewController {
                 attributes: [
                     NSAttributedString.Key.font: UIFont.systemFont(ofSize: 100)
                 ]
-            ),
-            for: .normal
+            ),q
         )
     }
     
