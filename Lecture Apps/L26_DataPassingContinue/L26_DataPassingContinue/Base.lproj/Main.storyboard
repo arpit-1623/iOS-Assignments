@@ -96,7 +96,6 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                         <connections>
                                             <action selector="secondButtonTapped:" destination="zHF-DD-vFh" eventType="touchUpInside" id="ocV-tD-8HX"/>
-                                            <segue destination="3Iq-Rn-gaN" kind="unwind" unwindAction="unwindWithoutData:" id="OHq-B6-8TQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -118,7 +117,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KYV-fl-zyO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="3Iq-Rn-gaN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1953" y="4"/>
         </scene>
@@ -146,7 +144,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

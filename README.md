@@ -26,7 +26,10 @@
     - Segue Login Practice
     - Event Planner Example
     - Mood-Meal Example (ST-1 Question)
-    - Data Passing Example
+    - Data Passing
+        - Data Passing : Prepare (F), Unwind (B), Segue Action(F)
+        - Data Passing Example : All Methods Combined
+        - Data Passing Continued : Segue Action (F), Delegate (B)
 
 - **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals

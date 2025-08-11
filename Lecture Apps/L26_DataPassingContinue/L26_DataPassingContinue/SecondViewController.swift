@@ -64,5 +64,8 @@ class SecondViewController: UIViewController {
             sliderData: sliderData,
             fieldData: fieldData
         )
+        
+        // Navigate back to FirstViewController
+        navigationController?.popViewController(animated: true)
     }
 }

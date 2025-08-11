@@ -30,6 +30,12 @@ class FirstViewController: UIViewController, DataPasser {
         
         firstTextLabel.text = "Hello, World!"
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let destination = segue.destination as? SecondViewController else { return }
+        
+        destination.delegate = self
+    }
 
     @IBSegueAction func firstToSecondSegue(_ coder: NSCoder) -> SecondViewController? {
         return SecondViewController(
@@ -38,9 +44,6 @@ class FirstViewController: UIViewController, DataPasser {
             firstSliderData: Double(firstSlider.value),
             firstTextFieldData: firstTextField.text
         )
-    }
-    
-    @IBAction func unwindWithoutData(_ segue: UIStoryboardSegue) {
     }
     
     @IBAction func unwindToFirstViewController(_ segue: UIStoryboardSegue) {
