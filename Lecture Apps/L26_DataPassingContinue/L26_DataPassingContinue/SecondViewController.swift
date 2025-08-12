@@ -66,6 +66,7 @@ class SecondViewController: UIViewController {
         )
         
         // Navigate back to FirstViewController
-        navigationController?.popViewController(animated: true)
+        // navigationController?.popViewController(animated: true) // Method - 1
+        performSegue(withIdentifier: "unwindToFirstVC", sender: nil)
     }
 }
