@@ -30,6 +30,8 @@
         - Data Passing : Prepare (F), Unwind (B), Segue Action(F)
         - Data Passing Example : All Methods Combined
         - Data Passing Continued : Segue Action (F), Delegate (B)
+    - App Anatomy & Life Cycle
+    - Data Passing Event App : Prepare (F) & Delegate (B)
 
 - **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals
