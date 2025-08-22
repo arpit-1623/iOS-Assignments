@@ -75,3 +75,4 @@ class EmojiTableViewController: UITableViewController {
         print("Selected Emoji: \(emotes[indexPath.row].symbol) \(emotes[indexPath.row].name)")
     }
 }
+
