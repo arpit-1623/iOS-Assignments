@@ -8,6 +8,16 @@
 import UIKit
 
 class EmojiTableViewController: UITableViewController {
+    
+    /*
+     
+     numberOfRowsInSection  - Number of Rows in Section
+     editingStyleForRowAt   - Enable Editing Button
+     commit                 - Logic for Editing Button
+     moveRowAt              - Enable and Logic for Reordering
+     didSelectRowAt         - Click on Row
+     
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +37,14 @@ class EmojiTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell                    = tableView.dequeueReusableCell(withIdentifier: "EmojiCell", for: indexPath) as! EmojiTableViewCell
         
-// => For Default Configuration
+// => For Default Configuration :-
 //        var config                  = cell.defaultContentConfiguration()
 //        config.text                 = "\(emotes[indexPath.row].symbol) \(emotes[indexPath.row].name)"
 //        config.secondaryText        = "\(emotes[indexPath.row].description)"
 //        cell.contentConfiguration  = config
         
 // => For Custom Configuration
+        
         cell.updateUI(emoji: emotes[indexPath.row])
         
         return cell

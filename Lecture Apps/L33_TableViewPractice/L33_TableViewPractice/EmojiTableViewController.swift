@@ -59,6 +59,13 @@ class EmojiTableViewController: UITableViewController {
         }
     }
     
+    // Reordering
+    override func tableView(_ tableView: UITableView, moveRowAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let removed = sections[sourceIndexPath.section].emojis[sourceIndexPath.row]
+        
+        sections[destinationIndexPath.section].emojis.insert(removed, at: destinationIndexPath.row)
+    }
+    
     // Click on Cell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         editingIndexPath = indexPath
