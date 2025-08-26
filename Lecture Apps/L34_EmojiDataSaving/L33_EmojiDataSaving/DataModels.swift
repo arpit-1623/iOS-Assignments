@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Emoji {
+// Data Saving Location
+let documentsDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
+let archiveURL = documentsDirectory.appendingPathComponent("emotes").appendingPathExtension("plist")
+
+struct Emoji : Codable {
     let symbol: String
     let name: String
     let description: String
@@ -30,3 +34,23 @@ var emotes : [Emoji] = [
         Emoji(symbol: "🏁", name: "Checkered Flag", description: "A black-and-white checkered flag.", usage: "completrion")
     ]
 
+// Encode and Save
+func saveEmotes(_ emotes: [Emoji]) {
+    let propertyListEncoder = PropertyListEncoder()
+    let encodedEmotes = try? propertyListEncoder.encode(emotes)
+    try? encodedEmotes?.write(to: archiveURL, options: .noFileProtection)
+    
+    print("Data saved to: \(archiveURL)")
+}
+
+// Decode and Load
+func loadEmotes() -> [Emoji] {
+    let propertyListDecoder = PropertyListDecoder()
+    
+    if let retrievedEmotesData = try? Data(contentsOf: archiveURL),
+       let decodedEmotes = try? propertyListDecoder.decode([Emoji].self, from: retrievedEmotesData) {
+        return decodedEmotes
+    }
+    
+    return []
+}
