@@ -51,6 +51,6 @@ func loadEmotes() -> [Emoji] {
        let decodedEmotes = try? propertyListDecoder.decode([Emoji].self, from: retrievedEmotesData) {
         return decodedEmotes
     }
-    
+     
     return []
 }
