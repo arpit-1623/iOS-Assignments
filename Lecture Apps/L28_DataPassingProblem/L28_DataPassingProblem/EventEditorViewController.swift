@@ -28,6 +28,7 @@ class EventEditorViewController: UIViewController {
         dateField.text = eventDate
         locationField.text = eventLocation
         countField.text = eventCount
+        
     }
     
     @IBAction func deleteButtonTapped(_ sender: UIButton) {
