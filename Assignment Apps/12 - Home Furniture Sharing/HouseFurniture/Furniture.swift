@@ -1,10 +1,3 @@
-//
-//  FurnitureModel.swift
-//  HomeFurniture
-//
-//  Created by Arpit Garg on 15/09/25.
-//
-
 import Foundation
 
 class Furniture {
