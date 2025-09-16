@@ -12,6 +12,12 @@
     - Guided Project: Light [Book]
     - Guided Project: Personality Quiz [Book]
     - Tab View About Me [Book]
+    - Meal Tracker Table [Book]
+    - Favorite Books Table [Book]
+    - Home Furniture Sharing [Book]
+    - Remember Emoji (Data Saving) [Book]
+    - Employee Roster [Book]
+    - Guided project: List [Book]
 
 - **Lecture Apps**  
     Xcode Applications created in the Class Lectures
@@ -32,6 +38,11 @@
         - Data Passing Continued : Segue Action (F), Delegate (B)
     - App Anatomy & Life Cycle
     - Data Passing Event App : Prepare (F) & Delegate (B)
+    - Scroll Views
+    - Table Views
+    - Emoji Table View with Data Saving
+    - Complex Input Screens
+    - System View Controller
 
 - **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals
