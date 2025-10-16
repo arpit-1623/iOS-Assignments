@@ -11,7 +11,7 @@
         <!--Basic Collection View Controller-->
         <scene sceneID="BNG-4C-LpO">
             <objects>
-                <collectionViewController id="D3n-qO-NWW" customClass="BasicCollectionViewController" customModule="L37_CollectionViews" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="D3n-qO-NWW" customClass="BasicCollectionViewController" customModule="BasicCollectionViewSample" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3Zb-NR-X4z" customClass="Basic">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="AX4-rA-KhN" customClass="BasicCollectionViewCell" customModule="L37_CollectionViews" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="AX4-rA-KhN" customClass="BasicCollectionViewCell" customModule="BasicCollectionViewSample" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="wGi-AO-jN5">

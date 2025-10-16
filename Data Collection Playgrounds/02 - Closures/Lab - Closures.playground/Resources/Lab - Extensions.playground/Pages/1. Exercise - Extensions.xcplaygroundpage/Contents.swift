@@ -37,7 +37,7 @@ var rectangle = Rectangle(length: 10, width: 10)
 let smallerRectangle = rectangle.halved()
 rectangle.half()
 print(rectangle)
-print(smallerRectangle),
+print(smallerRectangle)
 /*:
 page 1 of 2  |  [Next: App Exercise - Workout Extensions](@next)
  */
