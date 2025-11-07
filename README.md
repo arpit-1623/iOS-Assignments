@@ -18,6 +18,8 @@
     - Remember Emoji (Data Saving) [Book]
     - Employee Roster [Book]
     - Guided project: List [Book]
+    - Collection View Lab [Book]
+    - Compositional Layout Lab [Book]
 
 - **Lecture Apps**  
     Xcode Applications created in the Class Lectures
@@ -43,6 +45,9 @@
     - Emoji Table View with Data Saving
     - Complex Input Screens
     - System View Controller
+    - Collection Views
+    - Data Models (Meal Tracker)
+    - Storyboard Reference
 
 - **Fundamental Playgrounds**  
     Playgrounds for Swift Fundamentals

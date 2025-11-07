@@ -149,7 +149,7 @@ if sampleBook1 == sampleBook2 {
 
 // # Sorting Information using Comparable
 
-class Employee: CustomStringConvertible, Equatable, Comparable {
+class Employee: CustomStringConvertible, Comparable {
     var description: String {
         return firstName + " " + lastName + " " + jobTitle + " " + phoneNumber
     }
